@@ -26,7 +26,7 @@ def train_model(X_train, y_train):
         random_state=42
     )
 
-    model.fit(x_train, y_train)
+    model.fit(X_train, y_train)
     return model
     pass
 
