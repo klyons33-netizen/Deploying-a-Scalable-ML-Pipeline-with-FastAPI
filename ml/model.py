@@ -22,7 +22,7 @@ def train_model(X_train, y_train):
     """
     # TODO: implement the function
     model = RandomForestClassifier(
-        n_estimator=100,
+        n_estimators=100,
         random_state=42
     )
 
